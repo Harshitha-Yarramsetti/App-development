@@ -13,7 +13,7 @@ function App() {
   const [questions, setQuestions] = useState([]);
 
   const [gamePin, setGamePin] = useState("");
-  const [playerName, setPlayerName] = useState("");
+  const [, setPlayerName] = useState('');
 
   function generatePin() {
     return String(
